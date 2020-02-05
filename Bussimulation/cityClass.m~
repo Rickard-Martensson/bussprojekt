@@ -1,0 +1,26 @@
+classdef cityClass   
+   properties (SetAccess = private)
+      buses Bus
+      roads Road
+      Busspawner 
+   end
+   methods
+      function obj = cityClass(initialBuses, initialRoads)
+         if nargin > 0
+         end
+      end
+      function createBus(x, y)
+          newbus = Bus(1,2,3,4,5,6);
+          append(newbus,road)
+      end
+      function createRoad()
+      end
+      function tick()
+      end
+      function roadWork()
+         if nargin > 0
+            obj.Prop = val;
+         end
+      end
+   end
+end

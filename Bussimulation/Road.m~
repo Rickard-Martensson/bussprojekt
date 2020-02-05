@@ -1,0 +1,17 @@
+classdef Road
+   properties (SetAccess = protected)
+      start % (x,y) vector for the start
+      finish % (x,y) vector end
+      length % length of road
+      velocity % (x,y) vector for max velocity
+   end
+   methods
+   function obj = Road(location, road, velocity, acceleration, breakspeed, bussLength)
+        obj.location = location;
+        obj.road = road;
+        obj.velocity = velocity;
+        obj.acceleration = acceleration;
+        obj.breakspeed = breakspeed;
+        obj.busLength = bussLength;
+   end
+end
